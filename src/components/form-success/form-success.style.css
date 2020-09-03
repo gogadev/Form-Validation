@@ -1,0 +1,14 @@
+.success-img {
+  width: 80vw;
+  background: whitesmoke;
+  padding: 0.4rem;
+  border-top-left-radius: 10px;
+  border: 1px solid grey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  margin-top: 0.5rem;
+}
+.img {
+  width: 35%;
+  opacity: 0.1;
+}

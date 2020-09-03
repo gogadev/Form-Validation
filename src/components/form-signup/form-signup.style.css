@@ -1,0 +1,84 @@
+.form {
+  width: 80vw;
+  background: whitesmoke;
+  padding: 0.5rem;
+  border-top-left-radius: 10px;
+  border: 1px solid grey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+}
+
+.form-input {
+  width: 20vw;
+}
+
+.form-input input {
+  width: 100%;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: lightgrey;
+  letter-spacing: 3px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.2rem;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: grey;
+  font-weight: 100;
+  border-bottom-right-radius: 10px;
+  background: white;
+  border: 1px solid grey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  padding: 0.7rem;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.image {
+  width: 33%;
+  opacity: 0.3;
+  margin-bottom: 0.5rem;
+}
+
+.login {
+  letter-spacing: 2px;
+  margin: 0.2rem auto;
+  text-transform: capitalize;
+}
+
+.text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  background: lightgrey;
+  letter-spacing: 1px;
+}
+
+.btn {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  outline: lightgrey;
+  width: 37.5%;
+  border: 1px solid grey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+}
